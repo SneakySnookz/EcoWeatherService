@@ -1,8 +1,6 @@
 const express = require('express');
 const { WeatherService } = require('../weatherservice'); 
 
-const app = express();
-
 const PORT = 3000;
 
 app.get('/api', (req, res) => {
